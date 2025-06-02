@@ -1,0 +1,22 @@
+.dasNav{
+    width: 100vw;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: gray;
+}
+.dasNav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dasNav ul li{
+    font-size: 30px;
+}
+.dasNav ul li button{
+    font-size: 30px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}

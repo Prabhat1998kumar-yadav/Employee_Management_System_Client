@@ -1,0 +1,13 @@
+.editContainer{
+    width: 500px;
+    margin-top: 40px;
+    margin-inline: auto;
+}
+.updateButton{
+    border: none;
+    width: 140px;
+    padding: 10px;
+    background-color: lightgreen;
+    font-weight: 700;
+    font-size: 20px;
+}

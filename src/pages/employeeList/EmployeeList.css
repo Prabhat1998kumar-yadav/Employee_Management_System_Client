@@ -1,0 +1,25 @@
+.subHeading{
+    display: flex;
+    justify-content: end;
+    align-items: center;    
+    gap: 20px;
+    padding-inline: 20px;
+    margin: 2px 0;
+}
+.subHeading button{
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    background-color: lightgreen;
+    border-radius: 2px;
+}
+
+.searchContainer{
+    text-align: end;
+    margin-bottom: 2px;
+    padding-inline: 20px;
+}
+.tableList{
+    margin-inline: auto;
+    width:calc(100vw - 200px);
+}
