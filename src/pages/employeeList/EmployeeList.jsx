@@ -78,7 +78,7 @@ function EmployeeList() {
               <td>{i + 1 + (page - 1) * 5}</td>
               <td>
                 <img
-                  src={`http://localhost:3001/uploads/${emp.f_Image}`}
+                  src={`${import.meta.env.VITE_APP_SERVER_BASE_URL}/uploads/${emp.f_Image}`}
                   width="50"
                   alt="profile"
                 />

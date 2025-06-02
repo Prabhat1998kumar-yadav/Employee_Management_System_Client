@@ -141,7 +141,7 @@ function EditEmployee() {
         {preview ? (
             preview.startsWith("blob:")
               ? <img src={preview} alt="preview" width="40" />
-              : <img src={`http://localhost:3001/uploads/${preview}`} alt="preview" width="40" />
+              : <img src={`${import.meta.env.VITE_APP_SERVER_BASE_URL}/uploads/${preview}`} alt="preview" width="40" />
           ) : null}
         <button type="submit" className='updateButton'>Update</button>
       </form>
